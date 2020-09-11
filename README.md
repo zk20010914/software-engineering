@@ -8,33 +8,36 @@
 针对所有的元素重复以上的步骤，除了最后一个。
 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。<**>
 
-public class BubbleSort {
- 
-public void BubbleSort(int[] arr){
- 
- for(int i=0;i<arr.length-1;i++){//外层循环控制排序趟数
-　　　　　　
-   for(int j=0;j<arr.length-1-i;j++){//内层循环控制每一趟排序多少次
-　　　　　　　　
-     if(arr[j]>arr[j+1]){　　　　　
 
-      int temp=arr[j];
-　　　　　　　　
-      arr[j]=arr[j+1];　　　
-      
-      arr[j+1]=temp;
-　　　　}　}
+<>**/*
+ * 冒泡排序
+ */
+public class BubbleSort {
+　　
+ 
+   public void BubbleSort(int[] arr){
+ 
+　　　　for(int i=0;i<arr.length-1;i++){//外层循环控制排序趟数
+　　　　　　for(int j=0;j<arr.length-1-i;j++){//内层循环控制每一趟排序多少次
+　　　　　　　　if(arr[j]>arr[j+1]){
+　　　　　　　　　　int temp=arr[j];
+　　　　　　　　　　arr[j]=arr[j+1];
+　　　　　　　　　　arr[j+1]=temp;
+　　　　　　　　}
+　　　　　　}
+　　
         //输出
-      
-      
-      System.out.println("排序后数组元素为:");
-       
-    for(int num : arr){
-        
-       System.out.print( num + "  " );
-           }   }　}
-  
-  
+ 
+        System.out.println("排序后数组元素为:");
+        for(int num : arr){
+ 
+           System.out.print( num + "  " );
+ 
+           }
+       }　　
+ 
+} <**>
+ 
   测试用例
                   语句覆盖 :  1.arr = {4,3,2,1}
 
