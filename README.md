@@ -9,8 +9,8 @@
 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。<**>
 
 /*
- * 冒泡排序
- */
+ * 冒泡排序/
+
 public class BubbleSort {   
 public void BubbleSort(int[] arr){  
 for(int i=0;i<arr.length-1;i++){//外层循环控制排序趟数  
