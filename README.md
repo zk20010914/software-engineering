@@ -8,9 +8,7 @@
 针对所有的元素重复以上的步骤，除了最后一个。
 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。<**>
 
-/*
- * 冒泡排序
- */
+
 public class BubbleSort {
    public void BubbleSort(int[] arr){
  
