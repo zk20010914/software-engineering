@@ -1,4 +1,6 @@
-<**># software-engineering
+# software-engineering
+
+<**>算法原理：比较两个相邻的元素，将值大的元素右移。<**>
 public class TestMaoPao {
      
      public static void sortBub(int [] arr) {
@@ -29,4 +31,4 @@ public class TestMaoPao {
                 System. out.print( arr[ i]+ " ");
            }
      }
-}<**>
+}
