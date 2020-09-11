@@ -8,7 +8,6 @@
 针对所有的元素重复以上的步骤，除了最后一个。
 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。<**>
 
-
 public class BubbleSort {
    public void BubbleSort(int[] arr){
  
@@ -18,16 +17,12 @@ public class BubbleSort {
 　　　　　　　　　　int temp=arr[j];
 　　　　　　　　　　arr[j]=arr[j+1];
 　　　　　　　　　　arr[j+1]=temp;
-　　　　　　　　}
-　　　　　　}
+　　　　}　}
         //输出
         System.out.println("排序后数组元素为:");
         for(int num : arr){
            System.out.print( num + "  " );
-           }
-       }　
-}
-  
+           }   }　}
   
   测试用例
                   语句覆盖 :  1.arr = {4,3,2,1}
