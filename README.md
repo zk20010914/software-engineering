@@ -32,9 +32,7 @@ for(int j=0;j<arr.length-1-i;j++){//内层循环控制每一趟排序多少次
           for(int num : arr){
    
    System.out.print( num + "  " );
- 
-               }
-           }　　
+      }}　　
  
  
 
